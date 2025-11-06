@@ -2,14 +2,14 @@ import Stack from "@mui/material/Stack";
 import Logo from "../../Assets/navbar/logo.png"
 import { Link } from "react-router-dom"
 import Button from '@mui/material/Button';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import { useOutletContext } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from "react";
 
-export default function Navbar({home=false}) {
+function Navbar({home=false}) {
 
     const {isMobile
     } = useOutletContext();
@@ -102,3 +102,5 @@ export default function Navbar({home=false}) {
         </div>
     )
 }
+
+export default Navbar;

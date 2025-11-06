@@ -11,7 +11,7 @@ import arrowVector from "../../Assets/mobileApp/Vector.png"
 import { useSnackbar } from "notistack";
 import { useState } from "react";
 
-export default function MobileAppPromo() {
+function MobileAppPromo() {
 
     const { enqueueSnackbar, closeSnackbar } = useSnackbar();
     const [number, setNumber] = useState("");
@@ -130,3 +130,6 @@ export default function MobileAppPromo() {
         </div>
     )
 }
+
+
+export default MobileAppPromo;
