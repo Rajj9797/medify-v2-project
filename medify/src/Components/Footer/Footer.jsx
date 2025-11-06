@@ -10,7 +10,7 @@ import pinterestIcon from "../../Assets/Footer/pinterest_icon.png"
 import arrowBullet from "../../Assets/Footer/bullet.png"
 
 
-export default function Footer({isMobile}) {
+function Footer({isMobile}) {
 
 
     return (
@@ -189,3 +189,6 @@ export default function Footer({isMobile}) {
         </div>
     )
 }
+
+
+export default Footer;
