@@ -1,0 +1,22 @@
+.searchForm {
+    display: flex;
+    gap: 15%;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.container {
+    width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .searchForm {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .selectStyle{
+        width: 100%;
+    }
+}

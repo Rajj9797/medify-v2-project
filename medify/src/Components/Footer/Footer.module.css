@@ -1,0 +1,29 @@
+.container {
+    padding: 24px;
+    height: 500px;
+    background-color: #1B3C74;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet {
+    width: 10px;
+    height: 15px;
+}
+
+.line {
+    width: 100%;
+}
+
+.containerMob {
+    padding: 25px;
+    background-color: #1B3C74;
+    height: auto;
+
+}
+
+.contentMob {
+    height: fit-content;
+}

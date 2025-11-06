@@ -1,0 +1,9 @@
+.promo {
+    background-color: #2AA7FF;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
