@@ -8,13 +8,12 @@ import 'swiper/css/pagination'
 import Doc1 from "../../Assets/medical/doc1.png"
 import Typography from "@mui/material/Typography";
 
-export default function Carousel ({type}) {
+function Carousel ({type}) {
 
     return (
         
         <div className={styles.container}>
 
-            {/* Carousel - Ads */}
             {
                 (type === "ad") && (
 
@@ -66,7 +65,6 @@ export default function Carousel ({type}) {
                 )
             }
 
-            {/* Carousel - Med */}
             {
                 (type === "med") && (
                     
@@ -163,12 +161,12 @@ export default function Carousel ({type}) {
 
                             </div>
                         </SwiperSlide>
-
-
                     </Swiper>
                 )
             }
-
         </div>
     )
 }
+
+
+export default Carousel;
