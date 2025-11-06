@@ -86,21 +86,11 @@ export default function Faq() {
                             }}
                             >Why choose our medical for your family?</Typography>
                             
-
-
-
-
-
                             <Typography variant="h6" color="#1B3C74" 
                             style={{
                                 fontWeight: 700
                             }}
                             >Why we are different from others?</Typography>
-
-
-
-
-
 
                             <Typography variant="h6" color="#1B3C74" 
                             style={{
@@ -108,18 +98,11 @@ export default function Faq() {
                             }}
                             >Trusted & experience senior care & love</Typography>
 
-
-
-
-
-
                             <Typography variant="h6" color="#1B3C74" 
                             style={{
                                 fontWeight: 700
                             }}
                             >How to get appointment for emergency cases</Typography>
-
-
 
                         </Stack>
 

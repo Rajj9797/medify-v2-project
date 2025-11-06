@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar"
 
-export default function Header() {
+function Header() {
 
     return (
         <div>
@@ -8,3 +8,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default Header;
