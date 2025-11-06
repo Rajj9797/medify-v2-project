@@ -8,7 +8,7 @@ import CapsuleIcon from "../../Assets/displayCard/Capsule.png"
 import AmbulanceIcon from "../../Assets/displayCard/Ambulance.png"
 
 
-export default function DisplayCard() {
+function DisplayCard() {
 
     return (
         <div className={styles.container}>
@@ -38,17 +38,13 @@ export default function DisplayCard() {
                     </div>
 
                     <Typography variant="h5" color="gray" >Labs</Typography>
-
                 </div>
-
                 <div className={styles.card}>
 
                     <div className={styles.imgDiv}>
                         <img src={HospitalIcon} alt="hospital-img" />
                     </div>
-
                     <Typography variant="h5" color="gray" >Hospitals</Typography>
-
                 </div>
 
                 <div className={styles.card}>
@@ -56,22 +52,18 @@ export default function DisplayCard() {
                     <div className={styles.imgDiv}>
                         <img src={CapsuleIcon} alt="store-img" />
                     </div>
-
                     <Typography variant="h5" color="gray" >Medical Store</Typography>
-
                 </div>
-
                 <div className={styles.card}>
 
                     <div className={styles.imgDiv}>
                         <img src={AmbulanceIcon} alt="ambulance-img" />
                     </div>
-
                     <Typography variant="h5" color="gray" >Ambulance</Typography>
-
                 </div>
-
             </Stack>
         </div>
     )
 }
+
+export default DisplayCard;
