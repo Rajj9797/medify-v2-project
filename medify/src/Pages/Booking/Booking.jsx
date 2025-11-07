@@ -41,13 +41,11 @@ function BookedCard({detail}) {
 
                 <Stack direction="row" spacing={2}>
 
-                    {/* logo */}
                     <div className={styles.logoDiv}>
                         <img src={CenterLogo} alt="center-logo"/>
                     </div>
 
 
-                    {/* text */}
                     <Stack spacing={2}>
 
                         <Typography variant="h3" 
@@ -84,7 +82,6 @@ function BookedCard({detail}) {
 
                 </Stack>
 
-                {/* button for time and day */}
                 <Stack direction="row" spacing={2}>
 
                     <Button variant="outlined" 
@@ -111,7 +108,7 @@ function BookedCard({detail}) {
 
 }
 
-export default function Booking() {
+function Booking() {
 
     const {bookedDetails} = useOutletContext();
 
@@ -146,3 +143,5 @@ export default function Booking() {
         </div>
     )
 }
+
+export default Booking;

@@ -13,7 +13,7 @@ import { useState } from "react";
 
 function MobileAppPromo() {
 
-    const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+    const { enqueueSnackbar } = useSnackbar();
     const [number, setNumber] = useState("");
 
 

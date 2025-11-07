@@ -1,17 +1,15 @@
-import Navbar from "../../Components/Navbar/Navbar"
 import Hero from "../../Components/Hero/Hero"
 import Specialization from "../../Components/Specialization/Specialization"
 import LatestNews from "../../Components/LatestNews/LatestNews"
 import Faq from "../../Components/FAQ/Faq"
 import { useOutletContext } from "react-router-dom"
 
-export default function Home() {
+function Home() {
 
     const {stateData, selectedState, setSelectedState,
         cityData, selectedCity, setSelectedCity, isMobile
     } = useOutletContext();
 
-    // console.log("state within Home >>", stateData)
 
     return (
         <div>
@@ -25,3 +23,5 @@ export default function Home() {
         </div>
     )
 }
+
+export default Home; 

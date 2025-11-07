@@ -9,7 +9,7 @@ import MedicalCenterCard from "../../Components/MedicalCenterCard/MedicalCenterC
 
 
 
-export default function Search() {
+function Search() {
 
     
 
@@ -67,3 +67,5 @@ export default function Search() {
         </div>
     )
 }
+
+export default Search;
